@@ -735,6 +735,7 @@ QStringList Platform::getAliases(QString platform)
   if(platform == "3ds") {
     aliases.append("nintendo 3ds");
   } else if(platform == "actionmax") {
+    aliases.append("Action Max");
     aliases.append("singe");
     aliases.append("daphne");
   } else if(platform == "amiga") {
