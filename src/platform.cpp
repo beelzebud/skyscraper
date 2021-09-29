@@ -241,6 +241,8 @@ QStringList Platform::getScrapers(QString platform)
     scrapers.append("screenscraper");
   } else if(platform == "naomi") {
     scrapers.append("screenscraper");
+  } else if(platform == "naomi2") {
+    scrapers.append("screenscraper");
   } else if(platform == "nds") {
     scrapers.append("screenscraper");
   } else if(platform == "neogeo") {
