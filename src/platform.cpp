@@ -449,7 +449,7 @@ QString Platform::getFormats(QString platform, QString extensions, QString addEx
     formats.append("*.z64 *.n64 *.v64");
   } else if(platform == "naomi") {
     formats.append("*.bin *.dat *.chd");
-  } else if(platform == "naomi2) {
+  } else if(platform == "naomi2") {
     formats.append("*.bin *.dat *.chd");
   } else if(platform == "nds") {
     formats.append("*.nds");
