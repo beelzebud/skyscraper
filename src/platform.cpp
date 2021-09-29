@@ -1330,7 +1330,7 @@ QStringList Platform::getAliases(QString platform)
     aliases.append("gaelco");
     aliases.append("mega-tech");
     aliases.append("mega-play");
-  } else if(platform == "naomi2') {
+  } else if(platform == "naomi2") {
     aliases.append("mame");
     aliases.append("fba");
     aliases.append("arcade");
