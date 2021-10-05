@@ -638,6 +638,8 @@ QString ScreenScraper::getPlatformId(const QString platform)
     return "130";
   } else if(platform == "cdtv") {
     return "129";
+  } else if(platform == "actionmax") {
+    return "81";
   } else if(platform == "amstradcpc") {
     return "65";
   } else if(platform == "apple2") {
