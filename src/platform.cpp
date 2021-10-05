@@ -1473,7 +1473,7 @@ QStringList Platform::getAliases(QString platform)
     aliases.append("microsoft xbox one");
     aliases.append("sony playstation 4");
   } else if(platform == "switch") {
-    aliases.append("nintendo switch"
+    aliases.append("nintendo switch");
   } else if(platform == "ti99") {
     aliases.append("ti-99/4a");
     aliases.append("texas instruments ti-99");
