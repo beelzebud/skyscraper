@@ -145,6 +145,7 @@ QStringList Platform::getScrapers(QString platform)
     scrapers.append("screenscraper");
   } else if(platform == "actionmax") {
     scrapers.append("thegamesdb");
+    scrapers.append("screenscraper");
   } else if(platform == "amiga") {
     scrapers.append("openretro");
     scrapers.append("screenscraper");
