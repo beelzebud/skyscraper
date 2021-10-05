@@ -4,6 +4,11 @@
  *  Wed Jun 18 12:00:00 CEST 2017
  *  Copyright 2017 Lars Muldjord
  *  muldjordlars@gmail.com
+ *
+ *  Mon Oct 04 10:56 CST 2021
+ *  Copyright 2021 Nick Bilbrey
+ *  beelzebud@gmail.com
+ *
  ****************************************************************************/
 /*
  *  This file is part of skyscraper.
