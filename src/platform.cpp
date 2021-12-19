@@ -336,6 +336,9 @@ QStringList Platform::getScrapers(QString platform)
   } else if(platform  == "zxspectrum") {
     scrapers.append("worldofspectrum");
     scrapers.append("screenscraper");
+  } else if(platform  == "xbox") {
+	  scrapers.append("screenscraper");
+	  scrapers.append("thegamesdb");
   }
 
   // Always add 'cache' as the last one
@@ -531,6 +534,8 @@ QString Platform::getFormats(QString platform, QString extensions, QString addEx
     formats.append("*.dim *.m3u");
   } else if(platform == "x1") {
     formats.append("*.dx1 *.2d *.2hd *.tfd *.d88 *.88d *.hdm *.xdf *.dup *.cmd");
+  } else if(platform == "xbox") {
+	  formats.append("*.iso *.xbe");
   } else if(platform == "zmachine") {
     formats.append("*.dat *.z1 *.z2 *.z3 *.z4 *.z5 *.z6 *.z7 *.z8");
   } else if(platform == "zx81") {
@@ -721,6 +726,8 @@ QString Platform::getDefaultScraper(QString platform)
     scraper = "cache";
   } else if(platform == "x1") {
     scraper = "cache";
+  } else if(platform == "xbox") {
+	  scraper = "cache";
   } else if(platform == "zmachine") {
     scraper = "cache";
   } else if(platform == "zx81") {
@@ -1509,6 +1516,8 @@ QStringList Platform::getAliases(QString platform)
     aliases.append("x1");
   } else if(platform == "sharp x1") {
     aliases.append("z-machine");
+  } else if(platform == "xbox") {
+	  aliases.append("ogxbox");
   } else if(platform == "zxspectrum") {
     aliases.append("sinclair zx spectrum");
     aliases.append("zx spectrum");
