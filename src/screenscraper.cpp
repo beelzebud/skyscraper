@@ -803,6 +803,8 @@ QString ScreenScraper::getPlatformId(const QString platform)
     return "45";
   } else if(platform == "wonderswancolor") {
     return "46";
+  } else if(platform == "xbox") {
+    return "32";  
   } else if(platform == "x68000") {
     return "79";
   } else if(platform == "x1") {
