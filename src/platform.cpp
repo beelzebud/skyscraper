@@ -129,7 +129,7 @@ QStringList Platform::getPlatforms()
   platforms.append("wonderswancolor");
   platforms.append("x68000");
   platforms.append("x1");
-  platform.append("xbox");
+  platforms.append("xbox");
   platforms.append("zmachine");
   platforms.append("zx81");
   platforms.append("zxspectrum");
